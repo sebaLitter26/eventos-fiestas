@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost:27017/alquiler-fiestas-eventos',{
 	  console.log("La conexión a la base de datos está funcionando correctamente...");
 
 	  app.listen(port, function(){
-		  console.log("Servidor del api rest de alquiler moviliario para eventos escuchando en http://localhost:"+port);
+		  console.log("Servidor del api rest de musica escuchando en http://localhost:"+port);
 	  });
   },
   err => { console.error.bind(console, 'MongoDB connection error:',err)}
